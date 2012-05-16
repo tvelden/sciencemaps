@@ -1,5 +1,6 @@
-diversity <- read.csv("field2diversity.csv")
-diversity2 <- read.csv("field1diversity.csv")
+diversity <- read.csv(file = file.choose(), head =TRUE, sep=",")
+diversity2 <- read.csv(file = file.choose(), head =TRUE, sep=",")
+
 
 x<-diversity2$year
 y<-diversity2$value
