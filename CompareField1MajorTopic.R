@@ -1,5 +1,5 @@
-top <- read.csv("MajorTopicField1.csv")
-node <- read.csv("MajorTopicFieldNodeSize1.csv")
+top <- read.csv(file.choose())
+node <- read.csv(file.choose())
 
 years <- 1991:2010
 plot_colors <- c("red","orange","yellow", "green", "blue","blueviolet", "brown", "cyan")
