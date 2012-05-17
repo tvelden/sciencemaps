@@ -246,8 +246,8 @@ def MakeEachAuthorCSVFile(rank, authorName, listItem, G):
 
 ############################
 basemappath = str(sys.argv[1])
-edgepath = str(sys.argv[2])
-orginaldatapath = str(sys.argv[3])
+edgepath = str(sys.argv[3])
+orginaldatapath = str(sys.argv[2])
 
 noderolepath = str(sys.argv[4])
 authorarticlepath = str(sys.argv[5])

@@ -67,8 +67,8 @@ def getDistance(G, Path):
 
         return distance
 basemappath = str(sys.argv[1])
-edgepath = str(sys.argv[2])
-orginaldatapath = str(sys.argv[3])
+edgepath = str(sys.argv[3])
+orginaldatapath = str(sys.argv[2])
 whichfield = str(sys.argv[4])
 if whichfield != '1' and whichfield != '2':
         print "put 1 for field 1or 2 for field 2"

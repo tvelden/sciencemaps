@@ -265,8 +265,8 @@ def MakeEachCSVFile(rank, keyValue, listItem, G):
         print nodesizefilename, 'is done for', rank
                 
 basemappath = str(sys.argv[1])
-edgepath = str(sys.argv[2])
-orginaldatapath = str(sys.argv[3])
+edgepath = str(sys.argv[3])
+orginaldatapath = str(sys.argv[2])
 pckpath = str(sys.argv[4])
 
 pkl_file = open(pckpath, 'rb')
