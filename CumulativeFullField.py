@@ -120,4 +120,4 @@ for yearSequence, year in yearsequence_dict.items():
     print filename + " is done"
     
 print totalCount
-print "BBBBB" , str(b)
+#print "BBBBB" , str(b)
